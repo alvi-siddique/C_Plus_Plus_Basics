@@ -9,7 +9,7 @@ class Point
     Point()
     {
         cout << "Default constructor is called to construct the object" << endl;
-    };
+    }
     Point(const int &xValue, const int &yValue)
     {
         x = xValue;
@@ -42,18 +42,3 @@ int main()
     cp.Print();
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
