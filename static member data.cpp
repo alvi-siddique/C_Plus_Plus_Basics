@@ -19,7 +19,7 @@ class Box {
       double breadth;
       double height;
 };
-int Box::objectCount = 0;
+int Box::objectCount = 0;           //Must be initialize/written above main function.
 
 int main()
 {
